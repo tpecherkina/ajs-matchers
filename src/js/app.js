@@ -1,5 +1,6 @@
 export default function sortArr(arr) {
-    return arr.sort((a, b) => a.health.localeCompare(b.health));
-  }
-
-  
+    return arr.sort((a,b) => {
+        return b.health - a.health 
+    }, 0);
+    return arr
+}
