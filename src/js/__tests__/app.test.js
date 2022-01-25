@@ -1,4 +1,4 @@
-import sortArr from '../app.js';
+import sortArr from '../app';
 
 test('order', () => {
   const testArr = [
